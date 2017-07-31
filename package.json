@@ -1,0 +1,30 @@
+{
+  "name": "simple-bytebuffer.js",
+  "version": "1.0.0",
+  "description": "Simple ByteBuffer JS Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bobarev/simple-bytebuffer.js.git"
+  },
+  "keywords": [
+    "bytebuffer"
+  ],
+  "author": "Pavel Bobarev <pavel@bobarev.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bobarev/simple-bytebuffer.js/issues"
+  },
+  "homepage": "https://github.com/Bobarev/simple-bytebuffer.js#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.4.1"
+  }
+}
